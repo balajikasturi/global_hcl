@@ -18,8 +18,9 @@ val data = Seq(
   ("Scott", "Finance", 3300),
   ("Jen", "Finance", 3900),
   ("Jeff", "Marketing", 3000),
-  ("Kumar", "Marketing", 2000)
-  ("balaji","IT",90000)
+  ("Kumar", "Marketing", 2000),
+  ("balaji","IT",90000),
+   ("deva","rand d",8000)
 )
 
 // Create DataFrame
