@@ -36,5 +36,4 @@ val rankedDf = df.withColumn("rank", rank().over(windowSpec))
 // Filter for rows where rank is 3
 val thirdHighestSalary = rankedDf.filter(col("rank") === 3)
 
-// Show the result
 thirdHighestSalary.show()
