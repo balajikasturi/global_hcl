@@ -11,9 +11,8 @@ val spark = SparkSession.builder()
 // Sample data
 val data = Seq(
   ("James", "Sales", 3000),
-  ("Michael", "Sales", 4600),53+
-
-  ("Robert", "Sales", 4100),
+  ("Michael", "Sales", 4600),
+   ("Robert", "Sales", 4100),
   ("Maria", "Finance", 3000),
   ("Raman", "Finance", 3000),
   ("Scott", "Finance", 3300),
@@ -23,12 +22,11 @@ val data = Seq(
   ("Balaji","IT",90000),
    ("Deva","rand d",8000),
   ("Lakshmi","school",10000),
-   ('"Lai","IT",9000),
+   ("Lai","IT",9000),
     ("Raju","marketting",5000),
    ("Kasturi","marketing",8000),
    ("sai","IT",9000)
 )
-
 // Create DataFrame
 val df = spark.createDataFrame(data).toDF("Name", "Department", "Salary")
 
