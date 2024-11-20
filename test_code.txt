@@ -25,7 +25,8 @@ val data = Seq(
   ("Lakshmi","school",10000),
    ('"Lai","IT",9000),
     ("Raju","marketting",5000),
-   ("Kasturi","marketing",8000)
+   ("Kasturi","marketing",8000),
+   ("sai","IT",9000)
 )
 
 // Create DataFrame
