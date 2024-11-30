@@ -25,7 +25,8 @@ val data = Seq(
    ("Lai","IT",9000),
     ("Raju","marketting",5000),
    ("Kasturi","marketing",8000),
-   ("sai","IT",9000)
+   ("sai","IT",9000),
+   ("cba_bala","IT",7000)
 )
 // Create DataFrame
 val df = spark.createDataFrame(data).toDF("Name", "Department", "Salary")
