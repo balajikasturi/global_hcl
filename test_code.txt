@@ -41,3 +41,4 @@ val rankedDf = df.withColumn("rank", rank().over(windowSpec))
 val thirdHighestSalary = rankedDf.filter(col("rank") === 3)
 //print
 thirdHighestSalary.show()
+thirdHighestSalary.show()
